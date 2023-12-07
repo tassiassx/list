@@ -1,0 +1,81 @@
+html {
+    font-family: 'Mukta', sans-serif;
+}
+
+.header h1 {
+    color: #FF8984;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header p {
+    color: #FF8984;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header {
+    background: #4a4f56;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-color: #3B3F45;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_list {
+    padding: 20px 45px;
+}
+
+.main_list_item {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #88839E;
+    padding: 11px;
+    min-width: 534px;
+}
+
+.main_list_item:nth-child(2n) {
+    background-color: #7A7593;
+}
+
+.main_button {
+    color: #FF8984;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #4A4F56;
+    border: none;
+    padding: 12px 220px;
+}
+
+.main_list_item:hover {
+    background-color: #625E77;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked~span {
+    text-decoration: line-through;
+    color: #9B96AC;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
